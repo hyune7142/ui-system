@@ -1,0 +1,33 @@
+:root[data-theme="basic-light"] {
+  --palette-background-main: #FFFFFF;
+  --palette-primary-main: #2F457A;
+  --palette-primary-dark: #263238;
+  --palette-primary-light: #5C6BC0;
+  --palette-primary-hover: #1976D20A;
+  --palette-primary-contrastText: #F5F5F5;
+  --palette-secondary-main: #FF7474;
+  --palette-secondary-dark: #C2185B;
+  --palette-secondary-light: #F48FB1;
+  --palette-secondary-hover: #9C27B00A;
+  --palette-secondary-contrastText: #F5F5F5;
+  --palette-error-main: #D32F2F;
+  --palette-error-dark: #C62828;
+  --palette-error-light: #EF5350;
+  --palette-error-contrastText: #FFFFFF;
+  --palette-warning-main: #EF6C00;
+  --palette-warning-dark: #E65100;
+  --palette-warning-light: #FF9800;
+  --palette-warning-contrastText: #FFFFFF;
+  --palette-success-main: #2E7D32;
+  --palette-success-dark: #1B5E20;
+  --palette-success-light: #4CAF50;
+  --palette-success-contrastText: #FFFFFF;
+  --palette-info-main: #0288D1;
+  --palette-info-dark: #01579B;
+  --palette-info-light: #03A9F4;
+  --palette-info-contrastText: #FFFFFF;
+  --palette-text-primary: #333333DE;
+  --palette-text-secondary: #22222299;
+  --palette-text-disabled: #22222261;
+
+}

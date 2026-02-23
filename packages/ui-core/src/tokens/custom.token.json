@@ -1,0 +1,151 @@
+{
+  "meta": {
+    "name": "custom",
+    "version": "1.0.0",
+    "description": "Custom design tokens (compare with basic)"
+  },
+  "global": {
+    "breakpoints": {
+      "xs": "0px",
+      "sm": "360px",
+      "md": "600px",
+      "lg": "960px",
+      "xl": "1280px",
+      "mobile": "820px"
+    },
+    "spacing": {
+      "xs": "6px",
+      "sm": "12px",
+      "md": "20px",
+      "lg": "28px",
+      "xl": "40px"
+    }
+  },
+  "schemes": {
+    "light": {
+      "palette": {
+        "background": {
+          "main": "#F8F9FA"
+        },
+        "primary": {
+          "main": "#00695C",
+          "dark": "#004D40",
+          "light": "#4DB6AC",
+          "hover": "#00695C1A",
+          "contrastText": "#FFFFFF"
+        },
+        "secondary": {
+          "main": "#E65100",
+          "dark": "#BF360C",
+          "light": "#FF9800",
+          "hover": "#E6510014",
+          "contrastText": "#FFFFFF"
+        },
+        "error": {
+          "main": "#B71C1C",
+          "dark": "#8B0000",
+          "light": "#E53935",
+          "contrastText": "#FFFFFF"
+        },
+        "warning": {
+          "main": "#F9A825",
+          "dark": "#F57F17",
+          "light": "#FFD54F",
+          "contrastText": "#212121"
+        },
+        "success": {
+          "main": "#1B5E20",
+          "dark": "#0D3D0D",
+          "light": "#43A047",
+          "contrastText": "#FFFFFF"
+        },
+        "info": {
+          "main": "#006064",
+          "dark": "#00363A",
+          "light": "#26C6DA",
+          "contrastText": "#FFFFFF"
+        },
+        "text": {
+          "primary": "#1A1A1A",
+          "secondary": "#1A1A1A99",
+          "disabled": "#1A1A1A4D"
+        }
+      }
+    },
+    "dark": {
+      "palette": {
+        "background": {
+          "main": "#0D1117"
+        },
+        "primary": {
+          "main": "#26A69A",
+          "dark": "#00897B",
+          "light": "#80CBC4",
+          "hover": "#26A69A24",
+          "contrastText": "#0D1117"
+        },
+        "secondary": {
+          "main": "#FFB74D",
+          "dark": "#FF9800",
+          "light": "#FFCC80",
+          "hover": "#FFB74D1F",
+          "contrastText": "#0D1117"
+        },
+        "error": {
+          "main": "#EF5350",
+          "dark": "#E53935",
+          "light": "#E57373",
+          "contrastText": "#FFFFFF"
+        },
+        "warning": {
+          "main": "#FFCA28",
+          "dark": "#FFC107",
+          "light": "#FFD54F",
+          "contrastText": "#0D1117"
+        },
+        "success": {
+          "main": "#66BB6A",
+          "dark": "#43A047",
+          "light": "#81C784",
+          "contrastText": "#0D1117"
+        },
+        "info": {
+          "main": "#4DD0E1",
+          "dark": "#26C6DA",
+          "light": "#80DEEA",
+          "contrastText": "#0D1117"
+        },
+        "text": {
+          "primary": "#E6EDF3",
+          "secondary": "#E6EDF3B2",
+          "disabled": "#E6EDF361"
+        }
+      }
+    }
+  },
+  "components": {
+    "typography": {
+      "fontSize": {
+        "small": "11px",
+        "medium": "15px",
+        "large": "18px"
+      },
+      "fontFamily": "Georgia, 'Times New Roman', serif"
+    },
+    "button": {
+      "padding": {
+        "small": "6px 14px",
+        "medium": "10px 22px",
+        "large": "14px 30px"
+      },
+      "margin": {
+        "base": "0px"
+      },
+      "fontSize": {
+        "small": "11px",
+        "medium": "15px",
+        "large": "18px"
+      }
+    }
+  }
+}

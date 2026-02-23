@@ -1,0 +1,4 @@
+/* basic 테마: base + 테마별 CSS 한 번에 로드 (build:tokens:basic로 생성) */
+@import './basic/base.css';
+@import './basic/light.css';
+@import './basic/dark.css';

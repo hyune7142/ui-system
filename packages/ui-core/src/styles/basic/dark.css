@@ -1,0 +1,33 @@
+:root[data-theme="basic-dark"] {
+  --palette-background-main: #121212;
+  --palette-primary-main: #5D76B3;
+  --palette-primary-dark: #78909C;
+  --palette-primary-light: #E8EAF6;
+  --palette-primary-hover: #F4433614;
+  --palette-primary-contrastText: rgba(34, 34, 34, 0.87);
+  --palette-secondary-main: #F48FB1;
+  --palette-secondary-dark: #EC407A;
+  --palette-secondary-light: #FCE4EC;
+  --palette-secondary-hover: #CE93D814;
+  --palette-secondary-contrastText: rgba(34, 34, 34, 0.87);
+  --palette-error-main: #F44336;
+  --palette-error-dark: #D32F2F;
+  --palette-error-light: #E57373;
+  --palette-error-contrastText: #FFFFFF;
+  --palette-warning-main: #FFA726;
+  --palette-warning-dark: #F57C00;
+  --palette-warning-light: #FFB74D;
+  --palette-warning-contrastText: #000000DE;
+  --palette-success-main: #66BB6A;
+  --palette-success-dark: #388E3C;
+  --palette-success-light: #81C784;
+  --palette-success-contrastText: #000000DE;
+  --palette-info-main: #29B6F6;
+  --palette-info-dark: #0288D1;
+  --palette-info-light: #4FC3F7;
+  --palette-info-contrastText: #000000DE;
+  --palette-text-primary: #FFFFFF;
+  --palette-text-secondary: #FFFFFFB2;
+  --palette-text-disabled: #FFFFFF61;
+
+}

@@ -1,0 +1,25 @@
+:root[data-theme^="basic-"] {
+  --breakpoints-xs: 0px;
+  --breakpoints-sm: 480px;
+  --breakpoints-md: 640px;
+  --breakpoints-lg: 1024px;
+  --breakpoints-xl: 1440px;
+  --breakpoints-mobile: 768px;
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  --typography-fontSize-small: 12px;
+  --typography-fontSize-medium: 14px;
+  --typography-fontSize-large: 16px;
+  --typography-fontFamily: Arial, -apple-system, BlinkMacSystemFont, sans-serif;
+  --button-padding-small: 8px 16px;
+  --button-padding-medium: 12px 24px;
+  --button-padding-large: 16px 32px;
+  --button-margin-base: 0px;
+  --button-fontSize-small: 12px;
+  --button-fontSize-medium: 14px;
+  --button-fontSize-large: 16px;
+
+}

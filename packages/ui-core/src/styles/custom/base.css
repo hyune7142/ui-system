@@ -1,0 +1,25 @@
+:root[data-theme^="custom-"] {
+  --breakpoints-xs: 0px;
+  --breakpoints-sm: 360px;
+  --breakpoints-md: 600px;
+  --breakpoints-lg: 960px;
+  --breakpoints-xl: 1280px;
+  --breakpoints-mobile: 820px;
+  --spacing-xs: 6px;
+  --spacing-sm: 12px;
+  --spacing-md: 20px;
+  --spacing-lg: 28px;
+  --spacing-xl: 40px;
+  --typography-fontSize-small: 11px;
+  --typography-fontSize-medium: 15px;
+  --typography-fontSize-large: 18px;
+  --typography-fontFamily: Georgia, 'Times New Roman', serif;
+  --button-padding-small: 6px 14px;
+  --button-padding-medium: 10px 22px;
+  --button-padding-large: 14px 30px;
+  --button-margin-base: 0px;
+  --button-fontSize-small: 11px;
+  --button-fontSize-medium: 15px;
+  --button-fontSize-large: 18px;
+
+}

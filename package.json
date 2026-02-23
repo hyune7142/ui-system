@@ -1,0 +1,23 @@
+{
+  "name": "ui-system",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "install:all": "npm install",
+    "storybook": "npm run dev --workspace=@ui-system/core",
+    "build:core": "npm run build --workspace=@ui-system/core",
+    "// build:tokens": "npm run build:tokens -- <systemName> (e.g. basic, custom)",
+    "build:token": "npm run build:tokens --workspace=@ui-system/core --",
+    "dev:a": "npm run dev --workspace=project-a",
+    "dev:b": "npm run dev --workspace=project-b",
+    "lint": "npm run lint --workspaces --if-present"
+  },
+  "prettier": "@ui-system/eslint-config/prettier",
+  "devDependencies": {
+    "@ui-system/eslint-config": "*",
+    "eslint": "^9.39.1",
+    "prettier": "^3.4.2"
+  }
+}

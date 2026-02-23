@@ -1,0 +1,33 @@
+:root[data-theme="custom-light"] {
+  --palette-background-main: #F8F9FA;
+  --palette-primary-main: #00695C;
+  --palette-primary-dark: #004D40;
+  --palette-primary-light: #4DB6AC;
+  --palette-primary-hover: #00695C1A;
+  --palette-primary-contrastText: #FFFFFF;
+  --palette-secondary-main: #E65100;
+  --palette-secondary-dark: #BF360C;
+  --palette-secondary-light: #FF9800;
+  --palette-secondary-hover: #E6510014;
+  --palette-secondary-contrastText: #FFFFFF;
+  --palette-error-main: #B71C1C;
+  --palette-error-dark: #8B0000;
+  --palette-error-light: #E53935;
+  --palette-error-contrastText: #FFFFFF;
+  --palette-warning-main: #F9A825;
+  --palette-warning-dark: #F57F17;
+  --palette-warning-light: #FFD54F;
+  --palette-warning-contrastText: #212121;
+  --palette-success-main: #1B5E20;
+  --palette-success-dark: #0D3D0D;
+  --palette-success-light: #43A047;
+  --palette-success-contrastText: #FFFFFF;
+  --palette-info-main: #006064;
+  --palette-info-dark: #00363A;
+  --palette-info-light: #26C6DA;
+  --palette-info-contrastText: #FFFFFF;
+  --palette-text-primary: #1A1A1A;
+  --palette-text-secondary: #1A1A1A99;
+  --palette-text-disabled: #1A1A1A4D;
+
+}

@@ -1,0 +1,29 @@
+{
+  "name": "project-b",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@ui-system/core": "*",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "prettier": "@ui-system/eslint-config/prettier",
+  "devDependencies": {
+    "@ui-system/eslint-config": "*",
+    "@types/node": "^24.10.1",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react-swc": "^4.2.2",
+    "eslint": "^9.39.1",
+    "typescript": "~5.9.3",
+    "vite": "^7.3.1",
+    "vite-plugin-svgr": "^4.5.0"
+  }
+}
