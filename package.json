@@ -7,7 +7,9 @@
   "scripts": {
     "install:all": "npm install",
     "storybook": "npm run dev --workspace=@ui-system/core",
+    "build:storybook": "npm run build-storybook --workspace=@ui-system/core",
     "build:core": "npm run build --workspace=@ui-system/core",
+    "test:core": "npm run test --workspace=@ui-system/core",
     "// build:tokens": "npm run build:tokens -- <systemName> (e.g. basic, custom)",
     "build:token": "npm run build:tokens --workspace=@ui-system/core --",
     "dev:a": "npm run dev --workspace=project-a",
