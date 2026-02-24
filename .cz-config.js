@@ -48,7 +48,7 @@ module.exports = {
     subject: '설명을 입력하세요 (필수, 72자 이내, 마침표 사용하지 않음):\n',
     body: '본문을 입력하세요 (선택, "|"로 줄바꿈):\n',
     breaking: 'BREAKING CHANGE 설명을 입력하세요 (선택):\n',
-    footer: '꼬리말을 입력하세요 (선택, 예: Refs: #123, Reviewed-by: Z):\n',
+    footer: '티켓정보 (선택, 예: #123):\n',
     confirmCommit: '이 메시지로 커밋할까요?',
   },
   footerPrefix: 'Refs:',
