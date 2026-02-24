@@ -1,0 +1,34 @@
+{
+  "extends": ["@commitlint/config-conventional"],
+  "parserPreset": {
+    "parserOpts": {
+      "headerPattern": "^(?<type>[^:(]+)(?:\\((?<scope>[^)]*)\\))?!?:\\s(?<subject>.+)$",
+      "headerCorrespondence": ["type", "scope", "subject"]
+    }
+  },
+  "rules": {
+    "subject-empty": [2, "never"],
+    "subject-full-stop": [2, "never", "."],
+    "type-case": [0],
+    "type-empty": [2, "never"],
+    "type-enum": [
+      2,
+      "always",
+      [
+        "🎉 init",
+        "✨ feat",
+        "📦️ chore",
+        "💄 design",
+        "🚑️ fix",
+        "✅ test",
+        "🚀 deploy",
+        "🔨 refactor",
+        "🚚 rename",
+        "📚 docs",
+        "🔥 remove"
+      ]
+    ],
+    "scope-enum": [2, "always", ["root", "eslint-config", "core", "project-a", "project-b", "deps", "config", "other"]],
+    "scope-empty": [0]
+  }
+}

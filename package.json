@@ -12,12 +12,24 @@
     "build:token": "npm run build:tokens --workspace=@ui-system/core --",
     "dev:a": "npm run dev --workspace=project-a",
     "dev:b": "npm run dev --workspace=project-b",
-    "lint": "npm run lint --workspaces --if-present"
+    "lint": "npm run lint --workspaces --if-present",
+    "commit": "npx cz",
+    "prepare": "husky"
   },
   "prettier": "@ui-system/eslint-config/prettier",
   "devDependencies": {
+    "@commitlint/cli": "^20.4.2",
+    "@commitlint/config-conventional": "^20.4.2",
     "@ui-system/eslint-config": "*",
+    "commitizen": "^4.3.1",
+    "cz-customizable": "^7.0.0",
     "eslint": "^9.39.1",
+    "husky": "^9.1.7",
     "prettier": "^3.4.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-customizable"
+    }
   }
 }

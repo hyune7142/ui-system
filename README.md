@@ -62,11 +62,25 @@ function App() {
 
 ---
 
+## 📝 커밋
+
+Conventional Commits 형식으로 메시지를 작성하려면 다음을 사용하세요.
+
+```bash
+npm run commit
+```
+
+대화형(Commitizen)으로 타입·scope·설명을 고르면 됩니다.  
+커밋 시 **Husky**가 자동으로 lint를 돌리고, 메시지 형식은 **commitlint**로 검증합니다.
+
+---
+
 ## 스크립트 요약
 
-| 스크립트                    | 설명                                       |
-| --------------------------- | ------------------------------------------ |
-| `npm run storybook`         | @ui-system/core Storybook 실행 (포트 6009) |
-| `npm run build:core`        | @ui-system/core 빌드                       |
-| `npm run build:token:basic` | basic 토큰 → CSS 생성                      |
-| `npm run dev:a` / `dev:b`   | project-a / project-b 개발 서버            |
+| 스크립트                    | 설명                                                     |
+| --------------------------- | -------------------------------------------------------- |
+| `npm run commit`            | Conventional Commits 대화형 커밋 (lint·메시지 검증 포함) |
+| `npm run storybook`         | @ui-system/core Storybook 실행 (포트 6009)               |
+| `npm run build:core`        | @ui-system/core 빌드                                     |
+| `npm run build:token:basic` | basic 토큰 → CSS 생성                                    |
+| `npm run dev:a` / `dev:b`   | project-a / project-b 개발 서버                          |
